@@ -1,0 +1,135 @@
+@import "../../sass/variable.sass"
+
+.mp-product-detail
+    .image-gallery-right-nav,.image-gallery-left-nav 
+        position: absolute
+        top: 110%
+        font-size: 30px
+    .image-gallery-right-nav::before, .image-gallery-left-nav::before 
+        background-color: rgba(216, 216, 216, 0.945)
+        padding: 10px
+        text-shadow: unset
+    .image-gallery-right-nav
+        right: -10px 
+    .image-gallery-left-nav 
+        left: -10px
+    .image-gallery-thumbnail
+        border: 1px solid rgba(151,151,151,0.22)
+        padding: 5px 
+        width: 72px
+        height: 72px
+        display: inline-flex
+        justify-content: center
+        align-items: center
+    .image-gallery-thumbnail.active 
+        border: 1px solid $color-curious-blue
+        width: 72px
+        height: 72px
+        transform: unset !important
+        transition: unset !important
+    .image-gallery-thumbnail + .image-gallery-thumbnail 
+        margin-left: 10px  
+    .image-gallery-thumbnail img
+        max-height: 58px
+        max-width: 58px
+        height: auto !important
+        width: auto !important
+    .image-gallery-slide-wrapper.bottom 
+        display: flex
+        justify-content: center
+        align-items: center 
+        padding: 5px
+        border: 1px solid $color-whisper
+        border-radius: 4px
+        height: 455.54px    
+    &__header
+        margin: 24px 0
+    &__total-quantity
+        font-size: 18px 
+        color: $color-grey 
+        display: block
+    &__product-name
+        color: $color-black
+        font-size: 18px
+    h3
+        padding-left: 20px
+        padding-top: 20px
+    &__title
+        height: 64px
+        width: 456px
+        color: $color-black
+        font-size: 28px
+        line-height: 32px
+    &__price 
+        color: $color-sherpa-blue
+        flex-direction: column
+        display: flex
+        font-size: 30px
+        font-weight: 500
+        margin: 24px 0
+        span 
+            color: $color-grey
+            font-weight: 200
+            font-size: 18px
+    &__review
+        font-size: 12px
+        color: $color-grey    
+    &__stock
+        color: red
+    &__variantContent
+        margin-left: 50px 
+    &__china         
+        height: 22px
+        width: 55px
+        color: $color-orange-red
+        font-size: 18px
+        font-weight: bold
+        line-height: 23px
+    &__delivery
+        margin-top: 22px  
+    &__delivery p 
+        color: $color-grey
+        font-size: 18px
+    &__not-found   
+        height: 300px
+        display: flex
+        justify-content: center
+        align-items: center
+        color: $color-charcoal
+        font-weight: 500
+        fontsize: 16px
+
+.tabs-detail 
+    .ant-tabs-bar
+        margin: 0
+        border: 0
+    .ant-tabs-tab
+        background: $color-white !important
+        border: 0 !important   
+    .ant-tabs-tabpane-active
+        background: $color-snow !important 
+    .ant-tabs-tab-active
+        background-color: $color-snow !important
+        color: $color-safety-orange !important
+        font-weight: 0 !important  
+    .ant-tabs-tab:hover
+        color: $color-safety-orange !important          
+
+.mp-product-description
+    padding: 8px !important
+    border: 0 !important
+    background: none !important
+    h2
+        color: $color-nero
+        font-size: 20px
+        font-weight: 500
+        line-height: 25px
+    
+.mp-product-qna
+    height: 300px
+    display: flex
+    justify-content: center
+    align-items: center
+    color: $color-charcoal
+    font-weight: 500
+    font-size: 16px

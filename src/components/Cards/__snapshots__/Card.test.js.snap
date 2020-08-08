@@ -1,0 +1,352 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cards should show error card 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Cards
+    showPlayButton={false}
+    type="default"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <Card
+        bodyStyle={
+          Object {
+            "padding": "8px 16px",
+          }
+        }
+        bordered={false}
+        className="mp-card-default"
+        cover={
+          <div
+            className="mp-card-default__box-image"
+          >
+            <img
+              alt="example"
+              className="mp-card-default__image"
+            />
+          </div>
+        }
+      >
+        <div
+          className="mp-card-info"
+        >
+          <div>
+            <span
+              className="mp-card-default__title"
+            />
+            <span
+              className="mp-card-default__price"
+            >
+              Rp 0
+            </span>
+          </div>
+        </div>
+      </Card>,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "bodyStyle": Object {
+          "padding": "8px 16px",
+        },
+        "bordered": false,
+        "children": <div
+          className="mp-card-info"
+        >
+          <div>
+            <span
+              className="mp-card-default__title"
+            />
+            <span
+              className="mp-card-default__price"
+            >
+              Rp 0
+            </span>
+          </div>
+        </div>,
+        "className": "mp-card-default",
+        "cover": <div
+          className="mp-card-default__box-image"
+        >
+          <img
+            alt="example"
+            className="mp-card-default__image"
+          />
+        </div>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div>
+              <span
+                className="mp-card-default__title"
+              />
+              <span
+                className="mp-card-default__price"
+              >
+                Rp 0
+              </span>
+            </div>,
+            undefined,
+          ],
+          "className": "mp-card-info",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                undefined,
+                <span
+                  className="mp-card-default__title"
+                />,
+                <span
+                  className="mp-card-default__price"
+                >
+                  Rp 0
+                </span>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              undefined,
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": undefined,
+                  "className": "mp-card-default__title",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "span",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Rp 0",
+                  "className": "mp-card-default__price",
+                },
+                "ref": null,
+                "rendered": "Rp 0",
+                "type": "span",
+              },
+            ],
+            "type": "div",
+          },
+          undefined,
+        ],
+        "type": "div",
+      },
+      "type": [Function],
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <Card
+          bodyStyle={
+            Object {
+              "padding": "8px 16px",
+            }
+          }
+          bordered={false}
+          className="mp-card-default"
+          cover={
+            <div
+              className="mp-card-default__box-image"
+            >
+              <img
+                alt="example"
+                className="mp-card-default__image"
+              />
+            </div>
+          }
+        >
+          <div
+            className="mp-card-info"
+          >
+            <div>
+              <span
+                className="mp-card-default__title"
+              />
+              <span
+                className="mp-card-default__price"
+              >
+                Rp 0
+              </span>
+            </div>
+          </div>
+        </Card>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "bodyStyle": Object {
+            "padding": "8px 16px",
+          },
+          "bordered": false,
+          "children": <div
+            className="mp-card-info"
+          >
+            <div>
+              <span
+                className="mp-card-default__title"
+              />
+              <span
+                className="mp-card-default__price"
+              >
+                Rp 0
+              </span>
+            </div>
+          </div>,
+          "className": "mp-card-default",
+          "cover": <div
+            className="mp-card-default__box-image"
+          >
+            <img
+              alt="example"
+              className="mp-card-default__image"
+            />
+          </div>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div>
+                <span
+                  className="mp-card-default__title"
+                />
+                <span
+                  className="mp-card-default__price"
+                >
+                  Rp 0
+                </span>
+              </div>,
+              undefined,
+            ],
+            "className": "mp-card-info",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  undefined,
+                  <span
+                    className="mp-card-default__title"
+                  />,
+                  <span
+                    className="mp-card-default__price"
+                  >
+                    Rp 0
+                  </span>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                undefined,
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": undefined,
+                    "className": "mp-card-default__title",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "span",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Rp 0",
+                    "className": "mp-card-default__price",
+                  },
+                  "ref": null,
+                  "rendered": "Rp 0",
+                  "type": "span",
+                },
+              ],
+              "type": "div",
+            },
+            undefined,
+          ],
+          "type": "div",
+        },
+        "type": [Function],
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+}
+`;

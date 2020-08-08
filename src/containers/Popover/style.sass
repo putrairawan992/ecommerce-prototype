@@ -1,0 +1,56 @@
+@import "../../sass/variable.sass"
+
+.mp-main-header-popover
+    &__box
+        display: flex
+        justify-content: flex-start
+        align-items: center
+        cursor: pointer
+    &__name-icon
+        font-size: 12px
+        color: $color-silver
+    &__username
+        max-width: 100px !important
+        white-space: nowrap
+        overflow: hidden
+        text-overflow: ellipsis
+        color: $color-teal
+        font-weight: 500
+    &__username:hover
+        color: $color-safety-orange
+    &__login
+        color: $color-nobel
+    &__login:hover
+        color: $color-teal
+
+.mp-popover
+    position: fixed
+    top: 0px
+
+.mp-user-menu
+    width: 160px
+    height: 200px
+    &__title
+        display: flex
+        justify-content: flex-start
+        align-items: center
+        font-weight: 500
+    &__title img
+        height: 24px
+        margin-right: 12px
+    &__title a
+        font-size: 20px
+    &__title span
+        color: $color-black !important
+    &__title a:hover
+        color: $color-teal
+    &__content
+        display: flex
+        flex-direction: column
+        line-height: 32px
+    
+.mp-user-menu a
+    color: $color-grey !important
+    
+.mp-user-menu a:hover
+    color: $color-teal !important

@@ -1,0 +1,57 @@
+@import '../../sass/variable.sass'
+
+.mp-qna
+    margin-top: 20px !important
+    &__question-text
+        color: $color-charcoal
+        margin-bottom: 6px
+        font-weight: 500
+    &__answer-text
+        color: $color-kelly-green
+        font-weight: 500
+    &__ask-vote
+        display: flex
+        align-items: center
+        color: $color-grey
+        font-size: 12px
+    &__button-box
+        display: flex
+        justify-content: space-between
+        width: 120px
+        margin-left: 12px
+   
+.product-forum
+    padding: 32px
+
+.title-inline
+    &__title
+        color: $color-black
+        padding-top: 6px
+    &__button-live-chat
+        color: $color-teal !important
+        font-size: 16px !important
+        font-weight: 500 !important
+
+.table-qna .ant-table-thead > tr > th, .ant-table-tbody > tr > td
+    border-bottom: unset !important  
+    padding: 0px 0px 10px 0px !important
+
+ul.ant-pagination.pagination-product-forum.ant-table-pagination
+    text-align: center
+    float: unset !important      
+
+.pagination-product-forum .ant-pagination-item-active  
+    font-weight: 500
+    background: $color-teal
+    border-color: $color-teal
+    
+.pagination-product-forum .ant-pagination-item-active a    
+    color: $color-white
+
+.pagination-product-forum .ant-pagination-prev .ant-pagination-item-link,
+.pagination-product-forum .ant-pagination-next .ant-pagination-item-link
+    background-color: unset
+    border: unset
+
+.product-forum .ant-table-tbody > tr.ant-table-row-level-0:hover > td 
+  background: unset !important

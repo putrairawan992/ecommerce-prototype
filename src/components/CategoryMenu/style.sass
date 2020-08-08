@@ -1,0 +1,45 @@
+@import "../../sass/variable.sass"
+
+.category
+    color: $color-grey !important
+    font-weight: 500 !important
+    cursor: pointer
+
+.category:hover
+    color: $color-safety-orange !important
+
+.category:focus
+    outline: unset
+    
+.ant-dropdown-menu-submenu-title:hover
+    background-color: unset !important
+
+.cascader-fixed
+    position: fixed !important
+
+.cascader-popup
+    margin-top: 0
+    .ant-cascader-menu
+        width: 250px
+        height: auto !important
+    .ant-cascader-menu-item
+        display: flex
+        align-items: center
+    .ant-cascader-menu-item-expand-item
+        font-size: 10px
+
+.defaultCategoryMenu
+    color: $color-charcoal
+    font-size: 14px
+    line-height: 30px
+    width: 100% 
+    display: block 
+    height: 31px 
+    
+.defaultCategoryMenu:hover
+    color: $color-teal
+    
+.spanRender
+    margin: 10px 0 10px 10px
+    &__subMenu
+        width: 200px

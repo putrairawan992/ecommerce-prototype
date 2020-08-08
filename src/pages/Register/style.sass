@@ -1,0 +1,97 @@
+@import "../../sass/variable.sass"
+
+.heads
+  height: 100%
+
+.heads .anticon-eye 
+  font-size: 25px
+  color: $color-safety-orange !important
+
+.mp-register
+  overflow: hidden
+  &__form
+    background-color: $color-white
+    border-radius: 4px
+    width: 411px
+    height: 550px
+    padding: 15px 42px
+    // margin: 0 0 60px 0
+  img 
+    width: 224px
+    height: 25px  
+  &__logo
+    display: flex 
+    justify-content: center
+    margin: 40px 0 0 0
+  &__title
+    margin: 32px 0px
+    font-size: 16px
+    font-weight: 200
+    text-align: center
+  &__input
+    height: 48px
+  &__input .ant-input:hover,
+  &__input .ant-input:focus
+    border: 1px solid $color-teal !important
+    border-radius: 4px
+    box-shadow: 0 0 0 0 transparent !important
+  &__btn-socmed
+    display: flex
+    justify-content: center
+  &__note
+    display: block
+    margin: 10px 0
+    line-height: 18px
+    text-align: center
+    font-size: 14px
+    color: $color-grey
+  &__button-register-text
+    color: $color-white
+    padding-top: 11px
+    font-size: 18px
+    font-weight: 500
+  &__text-line
+    height: 1px
+    width: 30%
+    background: gray
+  &__option-text
+    color: $color-dark-grey
+    font-size: 14px
+    margin-top: 16px
+  &__socmed-box
+    display: flex
+    flex-direction: row
+    margin-top: 10px
+  &__socmed-button
+    width: 100%
+    height: 100%
+  &__direct-login
+    color: $color-grey
+    text-align: center
+    font-size: 14px
+    margin: 12px 0 0 0
+  &__link
+    color: $color-safety-orange !important
+  &__link-login
+    height: 19px
+    width: 224px
+    color: $color-safety-orange
+    font-size: 16px
+    font-weight: bold
+    line-height: 19px
+  &__link-login:hover,
+  &__link-login:focus
+    color: $color-orange-red !important
+  &__confirm
+    margin-top: 10px 
+  &__allert-message
+    display: flex
+    justify-content: center
+    margin: 10px 0px 10px 0px   
+
+.mp-limit-character.ant-typography.ant-typography-danger 
+    position: absolute
+    width: 100%
+    bottom: 0px
+    left: 0px
+    top: 22px      

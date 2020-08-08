@@ -1,0 +1,173 @@
+@import "../../sass/variable.sass"
+
+.mp-card-info
+    display: flex
+    justify-content: space-between
+    flex-direction: column
+    height: 100%
+
+.mp-card-badge
+    z-index: 1
+    position: absolute
+    margin: 8px 0
+    padding: 2px 8px
+    color: $color-white
+    font-weight: 300
+    background-color: $color-orange-red
+
+.mp-card-stars
+    display: flex
+    align-items: flex-end
+    font-size: 10px
+    color: $color-silver
+    margin-bottom: 4px
+    .ant-rate
+        margin-right: 8px
+        font-size: 12px
+
+.mp-card-bar
+    &__info
+        font-size: 12px
+
+.card-discount
+    display: flex
+    flex-direction: column
+
+.card-discount-price
+    font-size: 10px
+    color: $color-border
+    text-decoration: line-through
+
+.mp-card-default
+    width: 175px
+    height: 295px
+    border-radius: 10px
+    box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.08)
+    overflow: hidden
+    .ant-card-body
+        height: 120px
+    &__title
+        display: -webkit-box
+        -webkit-box-orient: vertical
+        -webkit-line-clamp: 2
+        max-height: 38px
+        overflow: hidden
+        font-size: 12px
+        color: $color-grey
+        line-height: 16px
+    &__price
+        font-size: 12px
+        font-weight: 500
+        color: $color-teal
+    &__box-image
+        display: flex
+        justify-content: center
+        align-items: center
+        height: 175px
+    &__image
+        max-height: 100%
+        max-width: 100%
+
+.mp-card-default:hover
+    box-shadow: 0 0 8px 6px rgba(0, 0, 0, 0.06)
+
+.mp-card-collection
+    width: 175px
+    height: 295px
+    border-radius: 10px
+    box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.08)
+    overflow: hidden
+    .ant-card-body
+        height: 120px
+    &__title
+        display: -webkit-box
+        -webkit-box-orient: vertical
+        -webkit-line-clamp: 2
+        max-height: 38px
+        overflow: hidden
+        font-size: 12px
+        color: $color-grey
+        line-height: 16px
+    &__price
+        font-size: 12px
+        font-weight: 500
+        color: $color-teal
+    &__box-image
+        display: flex
+        justify-content: center
+        align-items: center
+        height: 175px
+    &__image
+        max-height: 100%
+        max-width: 100%
+
+.mp-card-collection:hover
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.2)
+
+.mp-card-large
+    width: 276px
+    height: 296px
+    border-radius: 8px
+    box-shadow: 0 0 6px 2px rgba(0, 0, 0, 0.08)
+    overflow: hidden
+    .ant-card-body
+        padding: 12px 24px !important
+        height: 120px
+    &__title
+        display: -webkit-box
+        -webkit-box-orient: vertical
+        -webkit-line-clamp: 2
+        max-height: 38px
+        overflow: hidden
+        font-size: 24px
+        color: $color-black
+        font-weight: bold
+    &__description
+        font-size: 18px
+        font-weight: 500
+        color: $color-charcoal
+    &__box-image
+        display: flex
+        justify-content: center
+        align-items: center
+        height: 190px
+    &__image
+        max-height: 100%
+        max-width: 100%
+
+.mp-card-large:hover
+    box-shadow: 0 0 8px 6px rgba(0, 0, 0, 0.06)
+
+.mp-card-small
+    width: 136px
+    height: 140px
+    border-radius: 4px
+    box-shadow: 0 0 6px 2px rgba(0, 0, 0, 0.08)
+    overflow: hidden
+    line-height: 16px
+    .ant-card-body
+        height: 20px
+    &__title
+        display: -webkit-box
+        -webkit-box-orient: vertical
+        -webkit-line-clamp: 2
+        max-height: 38px
+        overflow: hidden
+        font-size: 12px
+        color: $color-black
+        font-weight: bold
+    &__description
+        font-size: 10px
+        font-weight: 500
+        color: $color-charcoal
+    &__box-image
+        display: flex
+        justify-content: center
+        align-items: center
+        height: 80px
+    &__image
+        max-height: 100%
+        max-width: 100%
+
+.mp-card-small:hover
+    box-shadow: 0 0 8px 6px rgba(0, 0, 0, 0.06)

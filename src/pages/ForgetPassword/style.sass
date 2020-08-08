@@ -1,0 +1,71 @@
+@import "../../sass/variable.sass"
+
+.forget-password
+    display: flex !important
+    justify-content: center
+    padding-top: 60px
+    height: 100vh
+    &__box-forget
+        width: 360px !important
+    &__box-forget-alert
+        width: 604px !important
+    &__box-forget-content
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        height: 80vh
+    &__title
+        margin-top: 80px
+        color: #000000
+        text-align: center
+        font-size: 20px
+        font-weight: bold
+    &__content
+        text-align: center
+        color: #4A4A4A
+        margin: 16px 0 56px 0
+    &__content-bottom
+        text-align: center
+        color: #777777
+        margin: 80px 0 0 0
+    &__input-email
+        height: 48px !important
+        font-size: 18px !important
+    &__input-email-error
+        height: 48px !important
+        font-size: 18px !important
+        border-color: #A8071A !important
+    &__input-email-error:focus
+    &__error-message
+        height: 14px
+        width: 100%
+        font-size: 14px
+        color: #A8071A
+        text-align: center
+    &__button-submit
+        height: 48px !important
+        font-size: 18px !important
+        width: 100%
+        background-color: #FB6900 !important
+        color: white !important
+    &__button-submit-disabled
+        height: 48px !important
+        font-size: 18px !important
+        width: 100%
+        background-color: #9B9B9B !important
+        border-color: #9B9B9B !important
+        color: white !important
+        cursor: pointer !important
+    &__link-bottom
+        color: $color-safety-orange
+        font-weight: bold
+    &__link-bottom:hover
+        color: $color-orange-red
+        font-weight: bold
+
+.forget-password .ant-form-item
+    height: 72px
+    margin-bottom: 0
+
+.forget-password .ant-form-item-control
+    line-height: 20px

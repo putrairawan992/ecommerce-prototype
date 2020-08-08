@@ -1,0 +1,104 @@
+@import "../../sass/variable.sass"
+
+.image-gallery-swipe, 
+.image-gallery-slides, 
+.image-gallery-slide, 
+.magnifier
+    width: 100% !important
+    height: 100% !important
+
+.modal-video-slider .ant-modal-close 
+    color: $color-white !important
+    font-weight: bolder !important
+
+.modal-video-slider .ant-modal-close-x 
+    font-size: 25px !important
+
+.modal-video-slider .ant-modal-header 
+    background: unset !important
+    border-bottom: unset !important
+    
+.modal-video-slider .ant-modal
+    width: 70% !important
+
+.modal-video-slider .ant-modal-footer 
+    display: none
+
+.modal-video-slider .ant-modal-content
+    background-color: unset !important
+    box-shadow: unset !important
+    
+.video-image
+    position: absolute
+    top: 0px
+    bottom: 0px
+    left: 0px
+    right: 0px
+    margin: auto   
+
+.close-video::before 
+    content: '✖'
+    cursor: pointer
+    position: absolute
+    left: 0;
+    top: 0
+    font-size: 20px
+    padding: 20px
+    z-index: 1
+    line-height: .7
+    display: block
+    color: $color-white
+
+.video-wrapper 
+    position: relative
+    padding: 33.35% 0px
+    height: 0px
+    transform: translate(0%,1%)
+
+.video-wrapper iframe 
+    position: absolute
+    top: 0px
+    left: 0px
+    width: 100%
+    height: 100%
+    
+.mp-product-detail .magnifier-image
+    max-width: 100%
+    max-height: 100%
+    position: absolute
+    top: 0
+    bottom: 0
+    left: 0
+    right: 0
+    margin: auto
+    padding: 0px
+    width: auto !important
+    height: auto !important
+
+.mp-product-detail .magnifying-glass
+    width: 100% !important
+    height: 100% !important
+    left: 0 !important
+    top: 0 !important
+    background: $color-white no-repeat
+
+.mp-product-detail .image-gallery-thumbnail
+    margin: 0 8px
+
+.mp-product-detail .image-gallery-thumbnails
+    margin: 18px 0
+    padding: 0
+
+.mp-product-detail .image-gallery-thumbnails-container
+    // margin-left: 50px
+
+.mp-product-detail .image-gallery-thumbnails-wrapper
+    width: 100% !important
+    // left: 45px
+
+.mp-product-detail .active
+    border: 1px solid $color-sherpa-blue !important
+    // box-shadow: inset 0 1px 3px 0 rgba(0,0,0,0.5), 4px 5px 4px 0 rgba(0,0,0,0.2)
+
+.mp-product-detail .image-gallery-right-nav, .mp-product-detail .image-gallery-left-nav 
+    top: 112% !important

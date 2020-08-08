@@ -1,0 +1,132 @@
+@import "../../sass/variable.sass"
+
+.topHeader
+    display: flex
+    justify-content: center
+    align-items: center
+    background: $color-snow
+    width: 100%
+    transform: translate3d(0, 0, 0)
+    transition: mdc-animation-exit-temporary(transform, 250ms)
+    will-change: transform
+
+.header
+    width: 100%
+    height: auto
+    padding: 10px
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,0.12)
+    background-color: $color-white
+    z-index: 5
+    position: relative
+    &__logo
+        height: 18px
+    &__search-box .ant-form-item
+        margin: 0
+    &__search 
+        height: 48px
+    &__search input
+        background-color: $color-snow
+    &__categories
+        display: flex
+        flex-direction: row
+        padding-top: 12px
+    &__icon-box
+        display: flex
+        justify-content: space-around
+        &__icon
+            font-size: 20px
+            color: $color-dark-grey
+        &__icon:hover
+            color: $color-safety-orange
+    &__user-box
+        display: flex
+        justify-content: space-around
+        &__customer
+            max-width: 100px
+            white-space: nowrap
+            overflow: hidden
+            text-overflow: ellipsis
+            cursor: pointer
+    &__arrow
+        font-size: 20px
+        margin-left: 5px
+        color: $color-grey
+        padding-top: 40px
+    &__user-menu
+        width: 204px
+        padding: 16px
+        height: 100%
+        margin-top: 8px
+        box-shadow: 0 19px 32px 0 rgba(0,0,0,0.1) !important
+    &__user-menu-box
+        display: flex
+        flex-direction: column
+        padding-left: 30px
+        padding-top: 20px
+    &__user-menu li
+        color: $color-grey
+        font-size: 16px
+        padding-bottom: 10px
+        background-color: unset !important
+    &__user-profile
+        height: 28px
+        width: 59px
+        color: $color-black
+        font-size: 20px
+        font-weight: 500
+        line-height: 28px
+    &__user-divider
+        box-sizing: border-box
+        height: 1px
+        width: 100%
+        border: 1px solid $color-whisper
+        margin: 0px 0px 15px 0px
+    &__user-logout
+        padding: 16px 16px 6px 16px
+    &__user-li
+        color: $color-charcoal
+        font-size: 14px
+        font-weight: 500
+        line-height: 22px
+        cursor: pointer  
+    &__user-li:hover
+        color: $color-sherpa-blue
+    &__user-menu li button
+        width: 190px
+        height: 48px
+        margin-top: 26px
+        cursor: pointer
+        background-color: $color-white
+
+.header .ant-input-affix-wrapper:hover .ant-input:not(.ant-input-disabled) 
+    border-color: $color-teal !important
+    
+
+.box-flex
+    display: flex
+    justify-content: flex-end    
+
+.categoryHome .ant-dropdown-menu-submenu-popup 
+    left: 325px !important
+
+.linkCategory 
+    color: $color-black
+
+.header__icon
+    display: block
+    width: 100%
+    float: right    
+
+
+.ant-cascader-menu 
+    height: auto
+
+.category
+    height: 18px
+    width: 59px
+    color: $color-teal
+    font-size: 15px
+    font-weight: 500
+    line-height: 18px
+    vertical-align: text-top
+    margin-right: 2px

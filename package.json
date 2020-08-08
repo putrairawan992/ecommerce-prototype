@@ -3,32 +3,89 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.5.0",
-    "@testing-library/user-event": "^7.2.1",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "@fullpage/react-fullpage": "^0.1.13",
+    "@testing-library/react": "^9.2.0",
+    "add": "^2.0.6",
+    "antd": "^3.18.1",
+    "axios": "^0.18.0",
+    "currency-formatter": "^1.5.3",
+    "customize-cra": "^0.5.0",
+    "formik": "^1.5.8",
+    "i18next": "^17.0.16",
+    "i18next-browser-languagedetector": "^3.0.3",
+    "jmespath": "^0.15.0",
+    "less": "^3.10.1",
+    "less-loader": "^5.0.0",
+    "lodash": "^4.17.11",
+    "node-sass": "^4.11.0",
+    "node-snackbar": "^0.1.15",
+    "prop-types": "^15.7.2",
+    "react": "^16.7.0",
+    "react-copy-to-clipboard": "^5.0.1",
+    "react-detect-offline": "^2.4.0",
+    "react-dom": "16.10.1",
+    "react-facebook-login": "^4.1.1",
+    "react-google-recaptcha": "^1.1.0",
+    "react-i18next": "^10.13.1",
+    "react-image-gallery": "^0.8.12",
+    "react-infinite-scroll-component": "^4.5.0",
+    "react-js-skeleton": "^0.4.1",
+    "react-lazyload": "^2.3.0",
+    "react-loading-overlay": "^1.0.1",
+    "react-loading-skeleton": "^1.1.2",
+    "react-localization": "^1.0.13",
+    "react-magnifier": "^3.0.0",
+    "react-moment": "^0.9.2",
+    "react-number-format": "^4.0.7",
+    "react-redux": "^6.0.0",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "^2.1.8",
+    "react-slick": "^0.23.2",
+    "react-social-login": "^3.4.3",
+    "react-social-login-buttons": "^2.3.0",
+    "react-viewer": "^2.8.0",
+    "redux": "^4.0.1",
+    "redux-dynamic-middlewares": "^1.0.0",
+    "redux-logger": "^3.0.6",
+    "redux-persist": "^5.10.0",
+    "redux-promise-middleware": "^5.1.1",
+    "redux-saga": "^1.0.0",
+    "redux-thunk": "^2.3.0",
+    "sass": "^1.20.1",
+    "yarn": "^1.21.1",
+    "yup": "^0.27.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-scripts eject",
+    "docz:dev": "docz dev",
+    "docz:build": "docz build"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": "react-app",
+    "rules": {
+      "no-control-regex": 0,
+      "no-regex-spaces": 0
+    }
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "babel-plugin-import": "1.12.0",
+    "css-loader": "^2.1.1",
+    "customize-cra": "^0.5.0",
+    "docz": "1.0.0-rc.9",
+    "docz-theme-default": "1.0.0-rc.9",
+    "less-vars-to-js": "^1.3.0",
+    "react-app-rewired": "^2.1.5",
+    "react-to-print": "^2.1.2",
+    "sass-loader": "^7.1.0",
+    "sass-resources-loader": "^2.0.1"
   }
 }

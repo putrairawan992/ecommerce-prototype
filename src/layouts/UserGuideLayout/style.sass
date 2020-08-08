@@ -1,0 +1,44 @@
+@import "../../sass/variable.sass"
+
+.mp-user-guide-layout
+    background-color: $color-white
+    &__wrapper .ant-layout
+        background-color:  unset !important 
+    &__content.ant-layout 
+        margin-left: 70px
+    &__children.ant-layout-sider.ant-layout-sider-dark 
+        margin-left: -10px  
+        background-color: unset !important  
+
+.mp-dashboard-user-guide-layout
+    &__title
+        color: $color-black !important
+        font-size: 14px    
+    .ant-tabs-nav .ant-tabs-tab-active span 
+        color: $color-safety-orange !important
+    .ant-tabs-ink-bar
+        background-color: unset 
+    .ant-menu
+        background-color: $color-snow !important
+    .ant-menu-sub.ant-menu-inline 
+        margin-left: 5px   
+    .ant-tabs .ant-tabs-left-content
+        border-left: unset !important 
+    .ant-tabs .ant-tabs-left-bar   
+        border-right: unset
+    .ant-collapse-borderless > .ant-collapse-item 
+        border-bottom: unset !important                 
+    .ant-menu-item-selected    
+        color: $color-safety-orange !important
+    .ant-menu-item:hover, .ant-menu-item-active, .ant-menu:not(.ant-menu-inline) .ant-menu-submenu-open, .ant-menu-submenu-active, .ant-menu-submenu-title:hover    
+        color: $color-safety-orange !important 
+        background-color: unset !important
+    .ant-menu-submenu-vertical > .ant-menu-submenu-title:hover .ant-menu-submenu-arrow::after, .ant-menu-submenu-vertical-left > .ant-menu-submenu-title:hover .ant-menu-submenu-arrow::after, .ant-menu-submenu-vertical-right > .ant-menu-submenu-title:hover .ant-menu-submenu-arrow::after, .ant-menu-submenu-inline > .ant-menu-submenu-title:hover .ant-menu-submenu-arrow::after, .ant-menu-submenu-vertical > .ant-menu-submenu-title:hover .ant-menu-submenu-arrow::before, .ant-menu-submenu-vertical-left > .ant-menu-submenu-title:hover .ant-menu-submenu-arrow::before, .ant-menu-submenu-vertical-right > .ant-menu-submenu-title:hover .ant-menu-submenu-arrow::before, .ant-menu-submenu-inline > .ant-menu-submenu-title:hover .ant-menu-submenu-arrow::before
+        background: linear-gradient(to right, $color-safety-orange, $color-safety-orange) !important 
+    .ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected
+        background-color: unset !important  
+    .ant-menu-vertical .ant-menu-item::after, .ant-menu-vertical-left .ant-menu-item::after, .ant-menu-vertical-right .ant-menu-item::after, .ant-menu-inline .ant-menu-item::after      
+        border-right: unset !important
+    .ant-menu-inline, .ant-menu-vertical, .ant-menu-vertical-left
+        border-right: unset !important   
+
